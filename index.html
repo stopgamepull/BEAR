@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="images/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="images/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="images/favicon-128.png" sizes="128x128">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="MAKO - The Smol brown bear">
+    <meta property="og:description" content="Create your own custom Mako and join the fun with this meme coin community!">
+    <meta property="og:image" content="images/open.avif">
+    <meta property="og:url" content="https://quaksol.xyz/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="MAKO">
+    <meta name="twitter:card" content="summary_large_image">
+    <script src="js/lenis.min.js" defer=""></script>
+    <script src="js/script.js" defer=""></script>
+    <title>MAKO</title>
+</head>
+
+<body>
+    <img src="images/playing.png" id="pause">
+    <img src="images/paused.png" id="play">
+    <audio id="beat" loop="">
+        <source src="media/lofi-beat.mp3" type="audio/mpeg">
+    </audio>
+    <div id="wake-up-fren">
+        <h1 class="title"><span class="dollar">$</span>Mako</h1>
+        <button id="wake-up-btn">
+            <img src="images/wakeupBtn.webp" class="wake-up-btn-img">
+        </button>
+        <img src="images/01.webp" class="wake-up-img asleep">
+        <img src="images/02.webp" class="wake-up-img awake">
+    </div>
+    <button id="navbar-btn" class="">
+        <span class="navbar-btn-line a"></span>
+        <span class="navbar-btn-line b"></span>
+        <span class="navbar-btn-line c"></span>
+    </button>
+    <nav id="navbar">
+        <div class="navbar-header">
+            <h1 class="title"><span class="dollar">$</span>Mako</h1>
+            <div class="sub-title">By Mako</div>
+        </div>
+        <div class="navbar-ca">
+            <div class="ca-icon-wrapper">
+                <img src="images/ca.png" class="ca-icon">
+            </div>
+            <!--CAAAAAAAA-->
+            <div class="ca-text">CA: AxdJSyPVJXDQFUwFPWSAKeWS7QLPD8sMuQZJKv52pump</div>
+            <span class="ca-tooltip">COPY ADDRESS</span>
+        </div>
+        <img src="images/l.png" class="side-quak left-quak navbar-quak">
+        <div class="navbar-links">
+            <div class="social-icon-wrapper" onclick="scrollToGenerator()">
+                <img src="images/icon.webp" class="social-icon">
+            </div>
+            <a href="https://x.com/MAKOMEMESOL" target="_blank" class="social-icon-wrapper">
+                <img src="images/x.png" class="social-icon">
+            </a>
+            <!--DEX-->
+            <a href="https://dexscreener.com/solana/AxdJSyPVJXDQFUwFPWSAKeWS7QLPD8sMuQZJKv52pump" target="_blank" class="social-icon-wrapper">
+                <img src="images/dex.png" class="social-icon">
+            </a>
+            <a href="https://t.me/MAKOMEMESOL" target="_blank" class="social-icon-wrapper">
+                <img src="images/tlg.png" class="social-icon">
+            </a>
+        </div>
+        <div class="navbar-footer">Copyright © Mako</div>
+    </nav>
+    <main>
+        <button id="back-to-top">
+            <img src="images/backToTop.png" class="back-to-top-img">
+        </button>
+        <h1 class="title"><span class="dollar">$</span>Mako</h1>
+        <div class="sub-title">the smol brown bear</div>
+        <img src="images/landingAnimation.gif" class="landing-animation">
+        <!--PUMPFUN-->
+        <a href="https://pump.fun/coin/AxdJSyPVJXDQFUwFPWSAKeWS7QLPD8sMuQZJKv52pump" target="_blank" class="call-to-action">
+            <img src="images/callToAction.webp" class="call-to-action-img">
+        </a>
+        <div class="phantom-img-wrapper">
+            <img src="images/phan.webp" class="phantom-img">
+        </div>
+        <div class="generator" id="generator">
+            <div class="generator-header">
+                <h1 class="generator-title">MAKO GENERATOR</h1>
+                <p class="generator-text">Create your own Mako!</p>
+            </div>
+            <div class="row-generator">
+                <div class="col-generator">
+                    <div class="generator-img-container">
+                        <img src="images/bg1.png" class="generator-img-bg generator-img-el" id="pfp-bg" alt="Custom quak background">
+                        <img src="images/1.png" class="generator-img-color generator-img-el" id="pfp-color" alt="Custom quak color">
+                        <img src="images/shape.png" class="generator-img-shape generator-img-el" id="pfp-shape" alt="Custom quak shape">
+                        <img src="images/1_1.png" class="generator-img-eyes generator-img-el" id="pfp-eyes" alt="Custom quak eyes">
+                        <img src="images/1_2.png" class="generator-img-accessory generator-img-el" id="pfp-accessory" alt="Custom quak accessory">
+                        <img src="images/1_3.png" class="generator-img-shape generator-img-el" id="pfp-foot" alt="Custom quak shape">
+                    </div>
+                    <input type="text" id="name-input" class="generator-name-input" placeholder="Enter your name">
+                </div>
+                <div class="col-generator">
+                    <div class="generator-btns-container">
+                        <button class="generator-randomize-btn" onclick="randomizeBtn()">
+                            <p class="fs-4 mb-0">Randomize <i class="fa-solid fa-dice ms-2"></i></p>
+                        </button>
+                        <button class="generator-download-btn" id="download-pfp">
+                            <p class="fs-4 mb-0">Download <i class="fa-solid fa-floppy-disk ms-2"></i></p>
+                        </button>
+                    </div>
+                    <div class="generator-choices-container">
+                        <div class="generator-choice-wrapper">
+                            <div class="generator-choice-arrow choice-left"><i class="fa-solid fa-caret-left"></i></div>
+                            <div class="generator-choice-text" id="color-choice">Color 1</div>
+                            <div class="generator-choice-arrow choice-right"><i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </div>
+                        <div class="generator-choice-wrapper">
+                            <div class="generator-choice-arrow choice-left"><i class="fa-solid fa-caret-left"></i></div>
+                            <div class="generator-choice-text" id="eyes-choice">Eyes 1</div>
+                            <div class="generator-choice-arrow choice-right"><i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </div>
+                        <div class="generator-choice-wrapper">
+                            <div class="generator-choice-arrow choice-left"><i class="fa-solid fa-caret-left"></i></div>
+                            <div class="generator-choice-text" id="foot-choice">Wear 1</div>
+                            <div class="generator-choice-arrow choice-right"><i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </div>
+                        <div class="generator-choice-wrapper">
+                            <div class="generator-choice-arrow choice-left"><i class="fa-solid fa-caret-left"></i></div>
+                            <div class="generator-choice-text" id="accessory-choice">Accessory 1</div>
+                            <div class="generator-choice-arrow choice-right"><i class="fa-solid fa-caret-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="note-container">
+            <p class="note-text"> This is a meme coin with no inherent value or promise of financial gain.</p>
+            <p class="note-text"> Drawing Mako has brought me joy for months, and I have no intention of stopping. I
+                hope it waddles into your heart just as warmly. </p>
+            <h1 class="note-thank-you">Thank you.</h1>
+        </div>
+        <img src="images/r.webp" class="side-quak right-quak">
+        <div class="text-parallax-container">
+            <div class="text-parallax-wrapper">
+                <div class="text-parallax-row scroll-right">
+                    <span>MAKO / GRRRRR / PEAK a GRRRRR / MAKOLIONS / </span>
+                    <span>MAKO / GRRRRR / PEAK a GRRRRR / MAKOLIONS / </span>
+                </div>
+            </div>
+            <div class="text-parallax-wrapper">
+                <div class="text-parallax-row scroll-left">
+                    <span>RUN / MAKO / RUN / BUBUCOM / MEMES / LOL / </span>
+                    <span>RUN / MAKO / RUN / BUBUCOM / MEMES / LOL / </span>
+                </div>
+            </div>
+            <div class="text-parallax-wrapper">
+                <div class="text-parallax-row scroll-right">
+                    <span>MAKO / GRRRRR / PEAK a GRRRRR / MAKOLIONS / </span>
+                    <span>MAKO / GRRRRR / PEAK a GRRRRR / MAKOLIONS / </span>
+                </div>
+            </div>
+            <div class="text-parallax-wrapper">
+                <div class="text-parallax-row scroll-left">
+                    <span>RUN / MAKO / RUN / BUBUCOM / MEMES / LOL / </span>
+                    <span>RUN / MAKO / RUN / BUBUCOM / MEMES / LOL / </span>
+                </div>
+            </div>
+        </div>
+        <img src="images/l.webp" class="side-quak left-quak">
+        <div class="gallery">
+            <div class="gallery-img-wrapper">
+                <img src="images/1.gif" class="gallery-img">
+                <img src="images/border1.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/2.gif" class="gallery-img">
+                <img src="images/border2.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/3.png" class="gallery-img">
+                <img src="images/border3.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/4.gif" class="gallery-img">
+                <img src="images/border4.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/5.png" class="gallery-img">
+                <img src="images/border5.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/6.gif" class="gallery-img">
+                <img src="images/border6.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/7.gif" class="gallery-img">
+                <img src="images/border7.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/9.gif" class="gallery-img">
+                <img src="images/border8.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/8.gif" class="gallery-img">
+                <img src="images/border7.png" class="gallery-img-border">
+            </div>
+            <div class="gallery-img-wrapper">
+                <img src="images/10.gif" class="gallery-img">
+                <img src="images/border8.png" class="gallery-img-border">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="images/lov.webp" class="quak-love-img">
+        <div class="footer-text">Made with ❤️ for the community</div>
+        <div class="copyright">Copyright © Mako </div>
+    </footer>
+    <script src="js/40248f80b4.js" crossorigin="anonymous"></script>
+
+
+</body></html>
